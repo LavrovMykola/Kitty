@@ -1,0 +1,39 @@
+body{
+background-image: linear-gradient(
+    to bottom,
+    rgb(0 0 255 / 50%),
+    rgb(255 255 0 / 50%)),
+    url("../img/kitty.jpg");
+}
+h2{
+    color: deeppink;
+}
+h2:hover{
+        font-size: 26pt;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    color:aqua;
+    line-height: 1.5;
+    font-size: 16pt;
+    font-weight: bold;
+}
+li:hover{
+        font-size: 26pt;
+}
+body{
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    border: 15px solid red;
+    border-radius: 25px;
+    text-align: center;
+    width: 250px;
+}
+body:hover{
+    border: 25px dashed white;
+    border-radius: 50px;
+}
